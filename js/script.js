@@ -1,4 +1,4 @@
-console.log("hellow from JS");
+// console.log("hellow from JS");
 const tagName = document.getElementsByTagName("li");
 //   console.log(tagName);
 for (const li of tagName) {
@@ -6,7 +6,7 @@ for (const li of tagName) {
 }
 const persons = document.getElementsByClassName("person-name");
 for (const person of persons) {
-  console.log(person.innerText);
+  // console.log(person.innerText);
 }
 
 const uniqeName =
