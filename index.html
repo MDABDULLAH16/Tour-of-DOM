@@ -10,14 +10,14 @@
     <h1>hello DOM mama. How are you!! </h1>
     <p>ki khobor mama! vule geso JS</p>
     <ul>
-        <li>module 5</li>
-        <li>class number 1</li>
-        <li>title: DOM</li>
+        <li id="module">module 5</li>
+        <li id="class" class="clsNum cls1 cls2 cls3 cls4">class number 1</li>
+        <li >title: DOM</li>
         <li>Recap somthing</li>
       
     </ul>
 
-    <h1>More Js Think</h1>
+    <h1 id="heading">More Js Think</h1>
     <ul>
         <li class="person-name">kamal</li>
         <li id="jamal" class="person-name">jamal</li>
@@ -26,6 +26,8 @@
     </ul>
 
     <script src="/js/script.js"></script>
-    
+    <script>
+        const title = document.getElementsByClassName('title')
+    </script>
 </body>
 </html>
